@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostStatechartConan(ConanFile):
     name = "boost_statechart"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-statechart"
+    url = "https://github.com/bincrafters/conan-boost_statechart"
 
     lib_short_names = ["statechart"]
     is_header_only = True

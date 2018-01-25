@@ -8,7 +8,8 @@ class BoostStatechartConan(ConanFile):
     name = "boost_statechart"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_statechart"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["statechart"]
     is_header_only = True
 
